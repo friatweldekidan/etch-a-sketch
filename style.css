@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    color: blueviolet;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 480px;  
+    margin: 0 auto;
+}
+
+.square {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+}
+
+#reset-btn {
+    display: block;
+    background-color: rgb(0, 174, 255);
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+}
